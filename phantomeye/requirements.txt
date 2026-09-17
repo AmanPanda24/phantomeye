@@ -1,0 +1,26 @@
+# PhantomEye — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core CLI framework ─────────────────────────────────────────────────────────
+click>=8.1.7
+rich>=13.7.0
+
+# ── HTTP / networking ──────────────────────────────────────────────────────────
+requests>=2.31.0
+urllib3>=2.0.0
+
+# ── DNS & WHOIS ────────────────────────────────────────────────────────────────
+dnspython>=2.4.2
+python-whois>=0.9.1
+
+# ── Phone number parsing ───────────────────────────────────────────────────────
+phonenumbers>=8.13.27
+
+# ── Security / cryptography ────────────────────────────────────────────────────
+cryptography>=42.0.0
+
+# ── Formatting / output ────────────────────────────────────────────────────────
+Pygments>=2.17.2        # syntax highlighting in HTML reports
+
+# ── Optional: Shodan (for IP scanning) ────────────────────────────────────────
+# shodan>=1.31.0        # uncomment if you have a Shodan API key
