@@ -228,12 +228,14 @@ Use `--no-ai` to skip AI analysis on any command.
 
 ## 🏗️ Project Structure
 
+```text
 phantomeye/
 ├── phantomeye/
 │   ├── __init__.py
 │   ├── cli.py                  # Click CLI entry point
 │   ├── banner.py               # ASCII art banner
 │   ├── config.py               # Config manager (~/.phantomeye/config.json)
+│   │
 │   ├── modules/
 │   │   ├── username_recon.py   # 30+ platform concurrent scanner
 │   │   ├── email_recon.py      # HIBP + Hunter + Gravatar
@@ -241,15 +243,16 @@ phantomeye/
 │   │   ├── domain_recon.py     # WHOIS + DNS + SSL + tech FP
 │   │   ├── phone_recon.py      # Carrier + region + dorks
 │   │   └── ai_analyst.py       # Claude API integration
+│   │
 │   └── utils/
-│       ├── database.py         # SQLite session persistence
-│       └── reporter.py         # JSON + HTML report generator
+│       ├── database.py          # SQLite session persistence
+│       └── reporter.py          # JSON + HTML report generator
+│
 ├── requirements.txt
 ├── setup.py
 ├── install.sh                  # Kali Linux one-command installer
 └── README.md
-
----
+```
 
 ## 🔑 API Keys Reference
 
